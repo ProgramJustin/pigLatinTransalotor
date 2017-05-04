@@ -15,10 +15,14 @@ var loopInput = function(inputToArray) {
 
   for (i = 0; i < inputToArray.length ; i++) {
 
+
     if(inputToArray[i] === vowels[0] || inputToArray[i] === vowels[1] || inputToArray[i] === vowels[2] || inputToArray[i] === vowels[3] || inputToArray[i] === vowels[4]) {
 
-      
+
     console.log(inputToArray[0]);
+
+  } else if () {
+
   }
   }
 
@@ -39,7 +43,7 @@ $(document).ready(function() {
       // console.log(cypher(inputToArray));
     var outputString = inputToArray.join(" ");
 
-    $("#result").text(outputString);
+    $("#result").append(inputToArray + "way");
   });
 });
 
